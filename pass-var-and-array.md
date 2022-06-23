@@ -29,5 +29,11 @@ $$
 Calling the function
 
 <pre>
+SELECT * from function_name('actor_name',array['genre1','genre2','genre3',...,'genreN'])
+</pre>
+
+Example
+
+<pre>
 SELECT * from function_name('Elizabeth Taylor',array['comedy','drama','romance'])
 </pre>
